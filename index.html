@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>google-homepage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="work.js">
+  </head>
+
+  <body>
+    
+    <header class="header">
+      <a href="https://mail.google.com" id = mail>Gmail</a>
+      <a href="https://www.google.com/search?q=images" id = imag>Images</a>
+      <a href="https://chrome.google.com/webstore/category/extensions">
+        <img src="images/apps.png" id="app">
+      </a>
+      <a href="https://accounts.google.com/">
+        <img src="images/acc.png"id="acc">
+      </a>
+    </header>
+   
+    <section class="main">
+      <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+      <form class="field">
+        <img src="images/search.png" alt="O" id="loupe">
+        <input type="search" id="text" placeholder="Search Google or type a URL">    
+        <a href="https://support.google.com/chrome/answer/2693767">
+          <img src="images/mic.png" alt="mic" id="mic">
+        </a>
+      </form>
+    </section>
+
+    <footer class="btn">
+      <button name="search" onclick=openSearch() id = G> Google Search </button>
+      <button name="search" onclick=openLucky() id = L> I'm Feeling Lucky!</button>
+    </footer>
+
+    <script src="work.js"></script>
+
+  </body>
+</html>
